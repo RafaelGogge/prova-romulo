@@ -1,0 +1,146 @@
+[
+    {
+      "question": "O que caracteriza a computação em nuvem?",
+      "options": [
+        "Uso exclusivo de servidores físicos dedicados",
+        "Fornecimento de recursos sob demanda via Internet",
+        "Necessidade de compra antecipada de hardware",
+        "Limitação de acesso a dados remotamente"
+      ],
+      "answer": 1,
+      "explanation": "A computação em nuvem é caracterizada pelo fornecimento de recursos sob demanda via Internet, como processamento, armazenamento e rede, sem a necessidade de possuir hardware físico dedicado."
+    },
+    {
+      "question": "Qual modelo de serviço cloud oferece um ambiente pronto para deploy de aplicações, sem gerenciamento de infraestrutura?",
+      "options": [
+        "IaaS (Infrastructure as a Service)",
+        "PaaS (Platform as a Service)",
+        "SaaS (Software as a Service)",
+        "FaaS (Function as a Service)"
+      ],
+      "answer": 1,
+      "explanation": "O modelo PaaS oferece uma plataforma pronta para o desenvolvimento e deploy de aplicações sem a necessidade de gerenciar a infraestrutura subjacente, como servidores e redes."
+    },
+    {
+      "question": "Qual é um exemplo de serviço de armazenamento em nuvem?",
+      "options": [
+        "AWS Lambda",
+        "Amazon EC2",
+        "Google Cloud Functions",
+        "Amazon S3"
+      ],
+      "answer": 3,
+      "explanation": "Amazon S3 é um serviço de armazenamento em nuvem, usado para armazenar e recuperar qualquer quantidade de dados a qualquer momento, escalável e altamente disponível."
+    },
+    {
+      "question": "O que significa 'elasticidade' em cloud computing?",
+      "options": [
+        "Alocação manual de servidores físicos",
+        "Capacidade de escalar recursos automaticamente conforme demanda",
+        "Uso restrito a uma única região geográfica",
+        "Dependência de hardware específico"
+      ],
+      "answer": 1,
+      "explanation": "Elasticidade em cloud computing se refere à capacidade de escalar os recursos automaticamente para atender à demanda de carga de trabalho, permitindo que os recursos aumentem ou diminuam de acordo com as necessidades."
+    },
+    {
+      "question": "Qual vantagem NÃO é típica da nuvem?",
+      "options": [
+        "Redução de custos com infraestrutura física",
+        "Escalabilidade ilimitada sem custos adicionais",
+        "Acesso remoto de qualquer lugar",
+        "Alta disponibilidade e redundância"
+      ],
+      "answer": 1,
+      "explanation": "Embora a nuvem ofereça redução de custos com infraestrutura física, a escalabilidade ilimitada sem custos adicionais não é uma vantagem, pois a escalabilidade está sujeita a custos conforme o uso."
+    },
+    {
+      "question": "Qual serviço AWS é usado para computação serverless?",
+      "options": [
+        "Amazon RDS",
+        "AWS Lambda",
+        "Amazon VPC",
+        "AWS Direct Connect"
+      ],
+      "answer": 1,
+      "explanation": "O AWS Lambda é um serviço serverless da AWS, permitindo a execução de código sem a necessidade de provisionar ou gerenciar servidores."
+    },
+    {
+      "question": "O que é 'multi-tenancy' em cloud?",
+      "options": [
+        "Um único cliente usando múltiplos servidores",
+        "Múltiplos clientes compartilhando os mesmos recursos físicos",
+        "Isolamento completo de hardware por cliente",
+        "Uso exclusivo de containers Docker"
+      ],
+      "answer": 1,
+      "explanation": "Multi-tenancy em cloud se refere ao modelo onde múltiplos clientes compartilham os mesmos recursos físicos, mas cada um tem acesso isolado e seguro aos seus dados e aplicativos."
+    },
+    {
+      "question": "Qual é a principal característica de um sistema distribuído?",
+      "options": [
+        "Todos os componentes executam em um único computador",
+        "Componentes autônomos se comunicam por rede para um objetivo comum",
+        "Não há necessidade de sincronização entre processos",
+        "Usam exclusivamente memória compartilhada para comunicação"
+      ],
+      "answer": 1,
+      "explanation": "A principal característica de um sistema distribuído é que seus componentes, localizados em diferentes máquinas, se comunicam por meio de rede para atingir um objetivo comum."
+    },
+    {
+      "question": "O que o CAP Theorem estabelece sobre sistemas distribuídos?",
+      "options": [
+        "Garante simultaneamente consistência, disponibilidade e tolerância a partições",
+        "Sistemas podem garantir no máximo 2 dessas 3 propriedades",
+        "Prioriza sempre a consistência sobre disponibilidade",
+        "É irrelevante para sistemas modernos"
+      ],
+      "answer": 1,
+      "explanation": "O CAP Theorem afirma que é impossível para um sistema distribuído garantir simultaneamente consistência, disponibilidade e tolerância a partições. O sistema pode garantir no máximo duas dessas propriedades."
+    },
+    {
+      "question": "Qual protocolo é comumente usado para eleição de líder em sistemas distribuídos?",
+      "options": [
+        "HTTP",
+        "Bully Algorithm",
+        "TCP/IP",
+        "SMTP"
+      ],
+      "answer": 1,
+      "explanation": "O Bully Algorithm é um protocolo comumente usado para a eleição de um líder em sistemas distribuídos, garantindo que um nó seja selecionado como líder de forma eficiente."
+    },
+    {
+      "question": "O que é transparência de acesso em sistemas distribuídos?",
+      "options": [
+        "Mostrar ao usuário todos os detalhes de implementação",
+        "Ocultar onde os recursos estão fisicamente localizados",
+        "Exigir que usuários conheçam a topologia da rede",
+        "Limitar o acesso a recursos locais"
+      ],
+      "answer": 1,
+      "explanation": "Transparência de acesso em sistemas distribuídos significa ocultar ao usuário onde os recursos estão fisicamente localizados, proporcionando uma visão uniforme do sistema."
+    },
+    {
+      "question": "Qual é um desafio típico em sistemas distribuídos?",
+      "options": [
+        "Ausência total de falhas",
+        "Manter relógios sincronizados em diferentes máquinas",
+        "Baixa complexidade de implementação",
+        "Comunicação instantânea entre nós"
+      ],
+      "answer": 1,
+      "explanation": "Um desafio típico em sistemas distribuídos é manter os relógios sincronizados entre diferentes máquinas, pois a comunicação entre elas pode sofrer atrasos e falhas."
+    },
+    {
+      "question": "O que é um 'clock vector' em sistemas distribuídos?",
+      "options": [
+        "Um relógio físico em cada servidor",
+        "Um mecanismo para ordenação causal de eventos",
+        "Um protocolo de roteamento",
+        "Uma ferramenta para medir latência"
+      ],
+      "answer": 1,
+      "explanation": "Um 'clock vector' é um mecanismo usado para ordenar causalmente os eventos em sistemas distribuídos, permitindo que a sequência dos eventos seja compreendida, mesmo que as operações ocorram em diferentes nós."
+    }
+  ]
+  
